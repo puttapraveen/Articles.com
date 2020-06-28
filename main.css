@@ -1,3 +1,6 @@
+body{
+    
+}
 .main .heading h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
@@ -26,8 +29,13 @@
    color: blue;
 }
 .articles{
-    margin-top: 100px;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 10px;
     padding: 10px 10px 10px;
+}
+.articles h2{
+    font-size: 16px;
+    font-family: 'Architects Daughter', cursive;    letter-spacing: 1px;
 }
 .articles ul{
     list-style: none;
@@ -37,17 +45,26 @@
     grid-auto-flow: dense;
     grid-gap: 20px;
 }
-.articles ul li{
-
+.pn img{
+color: black;    
 }
+
 .articles h1{
+    font-size: 20px;
     text-align: center;
 }
-.articles .article1,.article2,.article3{
-    padding: 10px 30px 20px;
+.articles .article1,.article2,.article3,.article4,.article5{
+    padding: 10px 30px 10px;
     grid-column: span 2;
     box-sizing: border-box;
 	border : 2px solid #fff;
 	box-shadow: 1px 1px 10px rosybrown;
     border-radius: 15px;
+}
+.mode{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
